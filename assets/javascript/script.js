@@ -2,6 +2,13 @@
 //complexity of the password 
 var passwordLength = prompt("Enter password lenght?");
 
+//confirm for charaters to be included
+var upperCase = confirm("Press ok to use uppercase letters!");
+
+var lowerCase = confirm("press ok to use lowercase letters!");
+
+var specialChar = confirm("press ok to use special charaters!")
+
 //values that can be selected
 var keylist="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789"
 var temp=''
