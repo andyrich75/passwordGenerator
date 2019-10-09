@@ -1,0 +1,31 @@
+body { 
+    background-color: beige;
+
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center
+}
+
+section { 
+    background-color: azure;
+    margin: 20px;
+    padding: 40px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+#password {
+    padding: 40px;
+    width: 70%;
+}
+
+#generate { 
+    background: lightcoral;
+    align-content: inherit;
+}
+
+#copy {
+    background: lightcoral;
+}
