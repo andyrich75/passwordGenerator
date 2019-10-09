@@ -23,9 +23,12 @@ section {
 
 #generate { 
     background: lightcoral;
-    align-content: inherit;
+    align-content: center;
+    margin: 10px;
 }
 
 #copy {
     background: lightcoral;
+    align-content: center;
+    margin: 10px;
 }
