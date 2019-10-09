@@ -7,20 +7,20 @@ var upperCase = confirm("Press ok to use uppercase letters!");
 
 var lowerCase = confirm("press ok to use lowercase letters!");
 
-var specialChar = confirm("press ok to use special charaters!")
+var specialChar = confirm("press ok to use special charaters!");
 
 //values that can be selected
-var keylist="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz123456789"
-var temp=''
+//let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!/#$%&'()*+,-./:;<=>?@[\]123456789"
+//var temp=''
 
-function generatepass(plength){
-temp=''
-for (i=0;i<plength;i++)
-temp+=keylist.charAt(Math.floor(Math.random()*keylist.length))
-return temp
-}
 
-function populateform(enterlength){
-document.pgenerate.output.value=generatepass(enterlength)
-}
+//running throught the charters 
+//for (var i = 0; i< passwordLength; i++)
+//password = temp + keylist.charAt(Math.floor(Math.random()*keylist.length))
+//return temp
+//}
+
+//function populateform(enterlength){
+//document.pgenerate.output.value=generatepass(enterlength)
+//}
 
