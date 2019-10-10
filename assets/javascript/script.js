@@ -2,25 +2,33 @@
 //complexity of the password 
 var passwordLength = prompt("Enter password lenght?");
 
+
+
 //confirm for charaters to be included
-var upperCase = confirm("Press ok to use uppercase letters!");
+//var upperCase = confirm("Press ok to use uppercase letters!");
 
-var lowerCase = confirm("press ok to use lowercase letters!");
+//var lowerCase = confirm("press ok to use lowercase letters!");
 
-var specialChar = confirm("press ok to use special charaters!");
+//var specialChar = confirm("press ok to use special charaters!");
+function passGen() {
+    
+let complexity = document.getElementById("passwordLength").value;
 
-//values that can be selected
-//let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!/#$%&'()*+,-./:;<=>?@[\]123456789"
-//var temp=''
+//setting the values to be chosen 
+let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$(%)*+&-/:;<=>?@[\]{|}";
 
+let password ="";
 
-//running throught the charters 
-//for (var i = 0; i< passwordLength; i++)
-//password = temp + keylist.charAt(Math.floor(Math.random()*keylist.length))
-//return temp
-//}
+// create for loop to run through charaters
+for(var i = 0; 1 <= complexity; i++){
+    password = password + values.charAt(Math.floor() * Math.floor(value.length - 1))
+}
 
-//function populateform(enterlength){
-//document.pgenerate.output.value=generatepass(enterlength)
-//}
+//generate on onclick to kick off the password generate
+document.getElementById("passclick").addEventListener("generate", myFunction);
+//adding to text box 
+function myFunction(){
+document.getElementById("passclick").value = password;
+}
 
+}
