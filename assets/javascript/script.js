@@ -24,11 +24,12 @@ for(var i = 0; 1 <= complexity; i++){
     password = password + values.charAt(Math.floor() * Math.floor(value.length - 1))
 }
 
+var generateEl = document.querySelector("#passclick")
 //generate on onclick to kick off the password generate
-document.getElementById("passclick").addEventListener("generate", myFunction);
+generate.addEventListener("onclick", myFunction);
 //adding to text box 
 function myFunction(){
-document.getElementById("passclick").value = password;
+document.getElementById("").value = password;
 }
 
 }
