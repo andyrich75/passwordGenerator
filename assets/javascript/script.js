@@ -1,35 +1,13 @@
+//Set variable for elements on the page
+var passwordElement = document.querySelector("#password");
+var passclickElement = document.querySelector("#passclick");
+var copyPassElement = document.querySelector("#copyPass");
 
-//complexity of the password 
-var passwordLength = prompt("Enter password lenght?");
 
 
+//prompts for crterias
+var passLength = prompt("Enter password lenght?");
 
-//confirm for charaters to be included
 //var upperCase = confirm("Press ok to use uppercase letters!");
-
 //var lowerCase = confirm("press ok to use lowercase letters!");
-
 //var specialChar = confirm("press ok to use special charaters!");
-function passGen() {
-    
-let complexity = document.getElementById("passwordLength").value;
-
-//setting the values to be chosen 
-let values = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!#$(%)*+&-/:;<=>?@[\]{|}";
-
-let password ="";
-
-// create for loop to run through charaters
-for(var i = 0; 1 <= complexity; i++){
-    password = password + values.charAt(Math.floor() * Math.floor(value.length - 1))
-}
-
-var generateEl = document.querySelector("#passclick")
-//generate on onclick to kick off the password generate
-generate.addEventListener("onclick", myFunction);
-//adding to text box 
-function myFunction(){
-document.getElementById("").value = password;
-}
-
-}
