@@ -2,13 +2,13 @@
 var pLength = prompt("Enter password lenght?");
     console.log(pLength);
 
-function generate(){
+    function generate(){
 
 
    //setting the password length
-   let complexity = docuemnt.getElementById("console.log").value;
+   let complexity = document.console(log).value;
    
-   //values that can be set 
+   //values that can be selected 
    let value = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~`|}{[]:;?><,./-=";
 
    let password = "";

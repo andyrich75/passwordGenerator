@@ -7,14 +7,13 @@ var copyPassElement = document.querySelector("#copyPass");
 
 //prompts for crterias
 var pLength = prompt("Enter password lenght?");
-var uppercaseInput = confirm("Press ok to use uppercase letters!");
-var numbersInput = confirm("press ok to use numbers!");
-var punctuationInput = confirm("press ok to use special charaters!");
+//var uppercaseInput = confirm("Press ok to use uppercase letters!");
+//var numbersInput = confirm("press ok to use numbers!");
+//var punctuationInput = confirm("press ok to use special charaters!");
 
 
 //seting the variables in a string that can be used. 
-var lowercase = "abcdefghijklmnopqrstuvwxyz";
-var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var letterCase = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%^&*()_+~`|}{[]:;?><,./-=";
 var numbers = "0123456789";
 var punctuation = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
 
